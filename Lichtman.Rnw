@@ -95,8 +95,8 @@ JT.theme <- theme(panel.border = element_rect(fill = NA, colour = "gray10"),
 
 \section{Data}
 <<>>=
-data.df <- data.frame(year = seq(1958, 2018, by=4), pres.appro = c(56, 60, 44, 57, 52, 49, 41, 64, 54, 41, 65, 66, 37, 43, 44,42), gen.ballot.D = c(NA, NA, NA, NA, NA, NA, 58, 44, 50, 48, 50, 49, 51, 48, 47, 48), gen.ballot.R = c(NA, NA, NA, NA, NA, NA, 40, 35, 40, 45, 41, 44, 40, 44, 44, 41), unempl = c(6.7, 5.4, 3.7, 5.5, 6, 5.8, 10.4, 7, 5.9, 5.8, 4.5, 5.7, 4.4, 9.4, 5.7, 3.7), GDPgrowth = c(-0.7, 6.1, 6.5, 3.2, -0.5, 5.6, -1.9, 3.5, 1.9, 4, 4.5, 1.8, 2.7, 2.5, 2.6, 4.2))
-data.df
+BBC.data <- data.frame(year = seq(1958, 2018, by=4), Pres = c("Eisenhower", "Kennedy", "Johnson", "Nixon", "Ford", "Carter", "Reagan", "Reagan", "Bush HW", "Clinton", "Clinton", "Bush W", "Bush W", "Obama", "Obama", "Trump"), inc.party = c("R", "D", "D", "R", "R", "D", "R", "R", "R", "D", "D", "R", "R", "D", "D", "R"), pres.appro = c(56, 60, 44, 57, 52, 49, 41, 64, 54, 41, 65, 66, 37, 43, 44,42), gen.ballot.D = c(NA, NA, NA, NA, NA, NA, 58, 44, 50, 48, 50, 49, 51, 48, 47, 48), gen.ballot.R = c(NA, NA, NA, NA, NA, NA, 40, 35, 40, 45, 41, 44, 40, 44, 44, 41), unempl = c(6.7, 5.4, 3.7, 5.5, 6, 5.8, 10.4, 7, 5.9, 5.8, 4.5, 5.7, 4.4, 9.4, 5.7, 3.7), GDPgrowth = c(-0.7, 6.1, 6.5, 3.2, -0.5, 5.6, -1.9, 3.5, 1.9, 4, 4.5, 1.8, 2.7, 2.5, 2.6, 4.2), Fin.D = c(NA, NA, NA, NA, NA, NA, NA, NA, NA, 100, 150, 160, 250, 285, 260, 430), Fin.R = c(NA, NA, NA, NA, NA, NA, NA, NA, NA, 115, 160, 180, 230, 360, 300, 230), Resign.D = c(NA, NA, NA, NA, NA, NA, NA, NA, 5, 25, 15, 8, 5, 16, 16, 1), Resign.R = c(NA, NA, NA, NA, NA, NA, NA, NA, 8, 9, 10, 17, 9, 14, 18, 34), gain.pres.party = c(-47, -4, -47, -12, -43, -11, -28, -5, -8, -53, 5, 6, -30, -63, -13, NA))
+BBC.data
 @
 A
 
