@@ -51,20 +51,17 @@
 \usepackage{makeidx}
 \makeindex
 
-\title{Logistic Regression}
+\title{US Midterm elections 2018 - a Lichtman model}
 \author{Jan Trommelmans}
 
 \begin{document}
-\SweaveOpts{concordance=TRUE,prefix.string=LR}
+\SweaveOpts{concordance=TRUE,prefix.string=Licht}
 \setkeys{Gin}{width=1.1\marginparwidth} %% Sweave
 
 <<echo=FALSE>>=
 library(tidyverse)
 library(gridExtra)
 library(broom)
-library(mcsm)
-library(scatterplot3d)
-library(verification)
 @
 
 % Setting the ggplot theme:
@@ -88,7 +85,7 @@ JT.theme <- theme(panel.border = element_rect(fill = NA, colour = "gray10"),
 % Functions
 
 \frontmatter
-\chapter*{Midterm elections: a Lichtman model}
+\chapter*{US Midterm elections 2018: a Lichtman model}
 
 \mainmatter
 \chapter{Lichtman}
